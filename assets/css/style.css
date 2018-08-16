@@ -9,23 +9,17 @@ body {
     border-color:#dddddd;
   }
   
-header {
-    background: #ffffff;
-    border-style: solid;
-    border-color: #cccccc;
-    font-family: 'Georgia', Times, Times, serif;
-  }
-  
 h1 {
     padding: 1px;
-    margin: 0 auto;
-    margin-bottom: 3px;
+    margin: auto;
+    margin-bottom: -55px;
     font-size: 28px;
     color: #eee;
     outline-color: #4aaaa5;
     outline-style: solid;
     background: #4aaaa5;
     max-width: 200px;
+    displa
   }
   
 h2 {
@@ -120,20 +114,53 @@ input[type=submit]:hover {
   max-width: 200px;
   height: auto;
   width: 200px;
-  text-align: center;
+  text-align: left;
 }
 
 .text-wrapper {
   max-width: 200px;
-  position: relative;
-  margin-top: -20%;
+  max-height: 110px;
+  position: center;
+  margin-top: -10%;
   background-color: #4aaaa5;
   color: white;
-
+  padding:-20px;
 }
 
 .text-wrapper h1 {
   text-align: center;
   font-size: 1vw;
-  padding: -1px;
+  padding: -5px;
+}
+
+header {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #cccccc;
+  font-family: 'Georgia', Times, Times, serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: -0;
+  padding: -20;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block ;
+  color: #777777;
+  text-align: center;
+  padding: 1px 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #4aaaa5;
 }
