@@ -19,7 +19,6 @@ h1 {
     outline-style: solid;
     background: #4aaaa5;
     max-width: 200px;
-    displa
   }
   
 h2 {
@@ -163,4 +162,8 @@ li a {
 
 li a:hover {
   background-color: #4aaaa5;
+}
+
+ul h1 {
+  float:left;
 }
